@@ -201,15 +201,15 @@ class DestinationCard extends StatelessWidget {
         );
       },
       child: Container(
-// This is the size of the card.
+        // This is the size of the card.
         height: 300,
         width: double.infinity,
         decoration: BoxDecoration(
-// This makes the card have round corners.
+          // This makes the card have round corners.
           borderRadius: const BorderRadius.all(
             Radius.circular(20),
           ),
-// This shows the picture of the place on the card.
+          // This shows the picture of the place on the card.
           image: DecorationImage(
             image: NetworkImage(
               image,
@@ -219,7 +219,7 @@ class DestinationCard extends StatelessWidget {
         ),
         child: Container(
           decoration: BoxDecoration(
-// This makes the card have round corners.
+            // This makes the card have round corners.
             borderRadius: const BorderRadius.all(
               Radius.circular(20),
             ),
